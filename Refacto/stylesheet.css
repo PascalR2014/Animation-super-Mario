@@ -1,0 +1,36 @@
+body {
+	color:black;
+	background-color:white;
+	background-image: url("assets/wallpaper-hd.jpg");
+	margin:0;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size: cover;
+	/*
+	max-width: 100%;
+	height: auto;
+	*/	
+}
+
+/*
+La solution vraiment efficace "background-size: cover;" *
+* Source: https://stackoverflow.com/questions/6028737/resize-background-image-in-div-using-css
+"max-width: 100%; et height: auto;" *
+* Cette solution ne fonctionne pas pour un background, en tout cas. 
+	Permet que l'image respecte la taille de l'écran,
+	Permet que l'image est un ratio équivalent que la taille originale !
+Source: http://tassedecafe.org/fr/responsive-redimensionner-image-css-conserver-ratio-1175
+*/
+
+.sprite {
+    position: relative;
+    left: 20px;
+    top: 380px;
+}
+
+footer {
+	position: fixed;
+	left: 10px;
+	top: 550px;	
+}
